@@ -4,7 +4,7 @@ Kiseki is a macOS gesture app for turning mouse gestures into reliable app and s
 
 ## Download
 
-Download the current public test build from:
+Download Kiseki for macOS 26 and later from:
 
 https://kisekiapp.com
 
