@@ -8,6 +8,19 @@ Download Kiseki for macOS 26 and later from:
 
 https://kisekiapp.com
 
+## Homebrew
+
+Install from the official [Navi Apps Tap](https://github.com/naviapps/homebrew-tap):
+
+```sh
+brew install --cask naviapps/tap/kiseki
+```
+
+Kiseki supports macOS 26 and later on Apple silicon and Intel Macs. The Tap uses
+the same signed and notarized DMG as the direct download. Open Kiseki from
+Applications and follow its Accessibility guide. See the Tap README for updates,
+uninstalling, and switching from a manual installation.
+
 ## Support
 
 Use GitHub Issues for non-sensitive bug reports, feature requests, and public support questions:
