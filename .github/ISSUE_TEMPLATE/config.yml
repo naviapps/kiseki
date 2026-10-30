@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Billing, activation, or private support
+    url: mailto:support@kisekiapp.com
+    about: Use email for receipts, license keys, account data, refunds, and private support.
+  - name: Security report
+    url: mailto:support@kisekiapp.com
+    about: Do not disclose vulnerabilities or private data in public issues.
