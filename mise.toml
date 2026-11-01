@@ -1,10 +1,11 @@
 [tools]
 dprint = "0.64.3"
 actionlint = "1.7.12"
+shellcheck = "0.11.0"
 
 [tasks.check]
-description = "Check owned text formatting and GitHub Actions workflows"
-run = ["dprint check", "actionlint -shellcheck= -pyflakes="]
+description = "Check owned text formatting and workflows with ShellCheck"
+run = ["dprint check", "actionlint -pyflakes="]
 
 [tasks.format]
 description = "Format owned Markdown, JSON, TOML, and YAML"
