@@ -1,6 +1,8 @@
 # Kiseki
 
-Kiseki is a macOS gesture app for turning mouse gestures into reliable app and system actions.
+Kiseki is a macOS gesture app for running app and system actions with a mouse or trackpad.
+Hold a secondary click, draw, and release to run shortcuts or arrange windows from
+wherever your pointer is.
 
 ## Download
 
