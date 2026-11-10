@@ -4,6 +4,9 @@ Kiseki is a macOS gesture app for running app and system actions with a mouse or
 Hold a secondary click, draw, and release to run shortcuts or arrange windows from
 wherever your pointer is.
 
+This public repository hosts Kiseki releases and support. The app source is
+maintained separately and is not required to install Kiseki.
+
 ## Download
 
 Download Kiseki for macOS 26 and later from:
@@ -36,3 +39,14 @@ support@kisekiapp.com
 ## Security
 
 Do not open public issues for vulnerabilities, private account data, license keys, receipts, or tokens. See [SECURITY.md](SECURITY.md).
+
+## Checking this repository
+
+To validate changes to the public documentation or workflows, install [mise](https://mise.jdx.dev/).
+Review `mise.toml` in your clone, then run:
+
+```sh
+mise trust
+mise install
+mise run check
+```
