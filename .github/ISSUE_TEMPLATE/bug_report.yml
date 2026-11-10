@@ -12,14 +12,13 @@ body:
     attributes:
       label: Kiseki version
       description: Open Kiseki settings and copy the version from Support.
-      placeholder: "0.1.2"
     validations:
       required: true
   - type: input
     id: macos
     attributes:
       label: macOS version
-      placeholder: "15.5"
+      description: Choose About This Mac from the Apple menu and enter the macOS version.
     validations:
       required: true
   - type: textarea

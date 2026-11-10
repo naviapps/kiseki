@@ -28,17 +28,10 @@ uninstalling, and switching from a manual installation.
 
 ## Support
 
-Use GitHub Issues for non-sensitive bug reports, feature requests, and public support questions:
-
-https://github.com/naviapps/kiseki/issues
-
-For billing, activation, refunds, or anything that includes private account details, email:
-
-support@kisekiapp.com
-
-## Security
-
-Do not open public issues for vulnerabilities, private account data, license keys, receipts, or tokens. See [SECURITY.md](SECURITY.md).
+Use [GitHub Issues](https://github.com/naviapps/kiseki/issues) for public bug reports,
+feature requests, and support questions. Email [Kiseki support](mailto:support@kisekiapp.com)
+for billing, activation, refunds, or private account details. Follow the
+[security policy](SECURITY.md) to report vulnerabilities privately.
 
 ## Checking this repository
 
@@ -50,3 +43,6 @@ mise trust
 mise install
 mise run check
 ```
+
+`mise.toml` supplies the tool versions for both local checks and GitHub Actions.
+Run `mise run format` to apply the repository's text formatting.
