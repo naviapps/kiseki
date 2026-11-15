@@ -11,7 +11,7 @@ maintained separately and is not required to install Kiseki.
 
 Download Kiseki for macOS 26 and later from:
 
-https://kisekiapp.com
+[Download Kiseki](https://kisekiapp.com)
 
 ## Homebrew
 
@@ -21,17 +21,26 @@ Install from the official [Navi Apps Tap](https://github.com/naviapps/homebrew-t
 brew install --cask naviapps/tap/kiseki
 ```
 
-Kiseki supports macOS 26 and later on Apple silicon and Intel Macs. The Tap uses
-the same signed and notarized DMG as the direct download. Open Kiseki from
-Applications and follow its Accessibility guide. See the Tap README for updates,
-uninstalling, and switching from a manual installation.
+The Tap uses the same signed and notarized DMG as the direct download, with support
+for Apple silicon and Intel Macs. Open Kiseki from Applications and follow its
+Accessibility guide. See the Tap README for updates, uninstalling, and switching
+from a manual installation.
+
+## Guides
+
+- [Getting started](https://kisekiapp.com/getting-started): permissions, your first gesture, and troubleshooting.
+- [Official presets](https://kisekiapp.com/presets): ready-made app settings and import instructions.
+- [Plans and activation](https://kisekiapp.com/billing): Free and Pro, license activation, and purchase help.
+- [Release notes](https://github.com/naviapps/kiseki/releases): published versions and downloads.
 
 ## Support
 
 Use [GitHub Issues](https://github.com/naviapps/kiseki/issues) for public bug reports,
-feature requests, and support questions. Email [Kiseki support](mailto:support@kisekiapp.com)
+feature requests, and support questions. Include the app version, macOS version,
+reproduction steps, and expected and observed behavior. Email [Kiseki support](mailto:support@kisekiapp.com)
 for billing, activation, refunds, or private account details. Follow the
-[security policy](SECURITY.md) to report vulnerabilities privately.
+[security policy](SECURITY.md) to report vulnerabilities privately. Keep license
+keys, tokens, payment details, and personal data out of public reports.
 
 ## Checking this repository
 
@@ -39,7 +48,7 @@ To validate changes to the public documentation or workflows, install [mise](htt
 Review `mise.toml` in your clone, then run:
 
 ```sh
-mise trust
+mise trust mise.toml
 mise install
 mise run check
 ```

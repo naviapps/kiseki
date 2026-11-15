@@ -1,9 +1,11 @@
 # Security Policy
 
-Please do not report security issues in public GitHub Issues.
+Report vulnerabilities privately to [Kiseki support](mailto:support@kisekiapp.com).
+Do not disclose them in public GitHub Issues.
 
-For vulnerabilities, private account data, license keys, receipts, or tokens, email:
+Include the affected app version, a concise description, reproduction steps, and
+the potential impact. Use redacted examples; do not send passwords, license keys,
+tokens, or payment details.
 
-support@kisekiapp.com
-
-Include a concise description, affected version, reproduction steps, and whether the issue may expose private data.
+For billing, activation, refunds, or other account questions, follow the
+[support instructions](README.md#support).
