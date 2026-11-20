@@ -11,7 +11,7 @@ body:
     id: version
     attributes:
       label: Kiseki version
-      description: Open Kiseki settings and copy the version from Support.
+      description: Copy the version from Support in Kiseki settings. If Kiseki cannot open, select Kiseki in Finder's Applications folder and choose File → Get Info.
     validations:
       required: true
   - type: input

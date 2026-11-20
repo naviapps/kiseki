@@ -13,6 +13,22 @@ Download Kiseki for macOS 26 and later from:
 
 [Download Kiseki](https://kisekiapp.com)
 
+Versioned downloads are also available on the
+[Kiseki releases page](https://github.com/naviapps/kiseki/releases).
+
+### Verify a direct download
+
+Download `Kiseki.dmg` and `SHA256SUMS` from the same release. Save both files in
+the same folder. Run this command from that folder in Terminal.
+
+```sh
+grep -E '^[[:xdigit:]]{64}  Kiseki\.dmg$' SHA256SUMS | shasum -a 256 -c
+```
+
+The expected result is `Kiseki.dmg: OK`. If the check fails, download both files
+again from the same release. macOS checks the app's signature and notarization
+when you open the downloaded app.
+
 ## Homebrew
 
 Install from the official [Navi Apps Tap](https://github.com/naviapps/homebrew-tap):
